@@ -2,6 +2,7 @@
 /api/npm-debug.log
 /api/.env
 /cms/e2e
+/api/packages
 
 # compiled output
 /api/dist
