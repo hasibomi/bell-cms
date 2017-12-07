@@ -2,7 +2,8 @@
 /api/npm-debug.log
 /api/.env
 /cms/e2e
-/api/packages
+/api/packages/bell-cms-core/dist
+/api/packages/bell-cms-core/node_modules
 
 # compiled output
 /api/dist

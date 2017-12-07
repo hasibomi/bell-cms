@@ -1,0 +1,28 @@
+{
+  "name": "bell-cms-core",
+  "version": "1.0.0",
+  "description": "Core API for Bell CMS",
+  "main": "dist",
+  "scripts": {
+    "tsc-init": "tsc --init",
+    "build": "tsc"
+  },
+  "keywords": [
+    "bell",
+    "cms",
+    "core",
+    "api"
+  ],
+  "author": "Hasibur Rahman Omi <me@hasibomi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/mysql": "^2.15.2",
+    "@types/node": "^8.0.56",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
