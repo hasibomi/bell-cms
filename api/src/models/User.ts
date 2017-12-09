@@ -1,4 +1,4 @@
-import {BellModel} from "../packages/bell-cms-core/src/bellmodel";
+import {BellModel} from "bell-cms-core";
 
 class UserModel extends BellModel {
     protected table: string = "users";
