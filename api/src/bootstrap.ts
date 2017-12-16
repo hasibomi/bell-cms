@@ -1,6 +1,12 @@
 import * as express from "express";
 import * as dotenv from "dotenv";
 import * as bodyParser from "body-parser";
+import {database} from "./database";
+
+// Load the modules before the app runs
+dotenv.config();
+database();
+
 import {web} from "./routes/web";
 import * as v1ApiRoutes from "./routes/api-v1";
 
@@ -20,7 +26,6 @@ export class Bootstrap {
      * Configure the app.
      */
     private configure(): void {
-        dotenv.config();
         this.app.use(bodyParser.json());
         this.app.use(bodyParser.urlencoded({"extended": false}));
         this.app.use("/", web);
